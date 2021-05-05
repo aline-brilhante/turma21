@@ -1,6 +1,6 @@
 package exemplos;
 
-public class idadeEGenero {
+public class //oiMundo {
 	
 	public static void main (String[] args) {
 		  Scanner leia = new Scanner(System.in);
