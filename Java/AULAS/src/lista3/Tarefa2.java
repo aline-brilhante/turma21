@@ -15,7 +15,7 @@ public class Tarefa2 {
 		int pares=0;
 		int impares=0;
 		
-		for (int x=0; x<3; x++) {
+		for (int x=0; x<10; x++) {
 		
 		System.out.println("\nDigite um número: ");
 		numero = leia.nextInt();
