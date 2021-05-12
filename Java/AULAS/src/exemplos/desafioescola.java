@@ -12,10 +12,9 @@ public class desafioescola {
 		int tipo;
 		int notaTotal=0;
 		int matricula=0;
-		int cpf=0;
+		String cpf;
 		int status=0;
 		int pontos[] = new int [10];
-		
 		
 		
 		
@@ -31,10 +30,7 @@ public class desafioescola {
 		System.out.println("\nSlogan...\n");
 		System.out.println(tipo);
 		
-		System.out.println("\nMatrícula: ");
-		matricula = leia.nextInt();
-		System.out.println("\nCPF: ");
-		cpf = leia.nextInt();
+		
 		
 		System.out.println("\nStatus: 1 - Ativa 2 - Inativa");
 		status = leia.nextInt();
@@ -56,6 +52,10 @@ public class desafioescola {
 			{
 				case '1':		
 				System.out.println("ENSINO BÁSICO");
+				System.out.println("\nMatrícula: ");
+				matricula = leia.nextInt();
+				System.out.println("\nCPF: ");
+				cpf = leia.nextLine();
 				break;
 		
 				case '2':		
