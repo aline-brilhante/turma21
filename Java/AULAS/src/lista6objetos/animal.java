@@ -11,7 +11,7 @@ public class Animal {
 	private int idade;
 	
 	//construtor
-
+	
 	public Animal(String nome, int idade) {
 		super();
 		this.nome = nome;
@@ -24,6 +24,7 @@ public class Animal {
 		return nome;
 	}
 
+
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
@@ -35,14 +36,10 @@ public class Animal {
 	public void setIdade(int idade) {
 		this.idade = idade;
 	}
+
+	
 	
 	//metodos
 	
-	public void som() {
-		System.out.println("Emitindo som...");
-	}
 	
-	public void movimento () {
-		System.out.println("Correndo!");
-	}
 }
