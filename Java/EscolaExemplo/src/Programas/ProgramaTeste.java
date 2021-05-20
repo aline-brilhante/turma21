@@ -71,7 +71,7 @@ public class ProgramaTeste {
 				int movimentos= 1;
 				while (movimentos <=10) {
 					System.out.printf("\nTotal atual: %.2f ", alunoBasico.getPontos());
-					System.out.printf("\nMOVIMENTO  - Digite I (inclusão de nota) ou R (retirada nota): ");
+					System.out.printf("\nMOVIMENTO %d - Digite I (inclusão de nota) ou R (retirada nota): ", movimentos);
 					movimento = leia.next().toUpperCase().charAt(0);
 					System.out.println("Digite o valor do movimento: ");
 					pontos = leia.nextDouble();
@@ -87,23 +87,67 @@ public class ProgramaTeste {
 				break;
 				
 		
-				case '2':		
+				case 2:		
 				System.out.println("ENSINO MÉDIO");
+				System.out.println("\nMatrícula: ");
+				matricula = leia.nextInt();
+				System.out.println("\nCPF: ");
+				cpf = leia.next();
+				System.out.println("\nStatus: 1 - Ativa 2 - Inativa");
+				status = leia.nextInt();
+				if (status == 1) {
+					status1 = true;
+				} else {
+					status1 = false;
+				}
 				break;
 		
-				case '3':		
+				case 3:		
 				System.out.println("GRADUAÇÃO");
+				System.out.println("\nMatrícula: ");
+				matricula = leia.nextInt();
+				System.out.println("\nCPF: ");
+				cpf = leia.next();
+				System.out.println("\nStatus: 1 - Ativa 2 - Inativa");
+				status = leia.nextInt();
+				if (status == 1) {
+					status1 = true;
+				} else {
+					status1 = false;
+				}
 				break;
 		
-				case '4':		
+				case 4:		
 				System.out.println("\nPÓS GRADUAÇÃO");
+				System.out.println("\nMatrícula: ");
+				matricula = leia.nextInt();
+				System.out.println("\nCPF: ");
+				cpf = leia.next();
+				System.out.println("\nStatus: 1 - Ativa 2 - Inativa");
+				status = leia.nextInt();
+				if (status == 1) {
+					status1 = true;
+				} else {
+					status1 = false;
+				}
 				break;
 		
-				case '5':		
+				case 5:		
 				System.out.println("\nMESTRADO");
+				System.out.println("\nMatrícula: ");
+				matricula = leia.nextInt();
+				System.out.println("\nCPF: ");
+				cpf = leia.next();
+				System.out.println("\nStatus: 1 - Ativa 2 - Inativa");
+				status = leia.nextInt();
+				if (status == 1) {
+					status1 = true;
+				} else {
+					status1 = false;
+				}
 				break;
 				
-				case '6':
+				case 6:
 				System.out.println("Saindo do sistema de pontos da escola");
 			}
 			
